@@ -1,0 +1,29 @@
+h2{
+	color:blue;
+}
+
+.boxmodel{
+	border: 5px solid red;
+	/*Red border around the Letter*/
+	display: inline-block;
+	/*List items horizontally*/
+	padding: 5px 20px 5px 20px
+	/*Standard: Top Right Bottom Left*/
+	/*Space around the letters*/
+	margin: 5px 20px 5px 20px;
+	/*Dimensions/box model will be shown in google chrome inspect */
+}
+
+p{
+	font-size: 20px
+}
+
+span{
+	font-size:5em;
+	/*Since SPAN AND P are linked together,*/
+	/*"EM" code says that the font size is going to be*/
+	/*5 TIMES THE SIZE OF "p"*/
+	font-size: 5rem
+	/*Will change only relative to HTML font size*/
+	/*not affected by "P" changes!*/
+}

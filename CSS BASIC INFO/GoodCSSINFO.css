@@ -1,0 +1,82 @@
+/*Selector{
+	Property: value;
+}*/
+
+
+body{
+	background-image: url(wall.png);
+	background-size:cover;
+
+	font-family: "Times New Roman", Georgia;
+	/*NEED to put in "" if there are spaces in the font name*/
+	/*If the computer doesnt have times new roman, Georgia will be auto assigned*/
+	font-family: 'Open Sans Condensed', sans-serif;
+	/*Font change based on google*/
+
+}				
+
+h2,p {
+	color: #E49800;
+	text-align:center;
+	border: 10px dashed #8ed500;
+	cursor: pointer;
+}
+
+img{
+	float:right;
+	/*Moves image to right, use float with text*/
+}
+
+footer{
+	clear:both;
+	text-align: center;
+	/*Website made with love*/
+}
+p {
+	text-decoration: line-through; 
+	/*Basically edits the "P" text to have underlines*/
+	text-decoration: underline;
+	/*Puts line through the paragraph letters*/
+	text-transform:uppercase;
+	/*Transform entire text into uppercase/Lowercase*/
+	line-height:5px;
+	/*Spacing in the sentences*/
+	font-style: italic;
+	font-weight: bolder;
+	/*Can choose number between 100 and 900, or bold*/
+	font-size: 100%
+	/*By percentages, 100% is normal font*/
+
+	}
+
+/*Cascades, CSS takes last input for a specific selector*/
+
+p{
+	color:#E49800;
+}
+
+header{
+	background-color:pink;
+}
+
+li{
+	list-style:none;
+	display: inline-block;
+}
+
+.webtext:last-child{
+	border: 5px dashed green;
+}
+
+.active{
+	color:red;
+}
+
+#div1{
+	background: rgba(0,0,255,0.2)
+
+}
+
+#div2{
+	background: rgba(255,0,0,0.2);
+}

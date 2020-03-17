@@ -1,0 +1,27 @@
+/*Use this for flexbox tricks: https://css-tricks.com/snippets/css/a-guide-to-flexbox/*/
+
+.container{
+	/*Using the DIV class to apply styles on every image*/
+	display: flex;
+	/*Activating Flexbox*/
+	flex-wrap:wrap;
+	/*When changing window size, the pictures will "wrap" around windows*/
+	justify-content: center;
+	/*Centers the pictures*/
+}
+
+h1{
+	font-family: fantasy;
+	font-size: 3em
+	border-bottom: 2px solid pink;
+	border-right:2px solid pink;
+	/*SIZE-PROPERTY-COLOR*/
+	width: 400px;
+	text-align: center;
+}
+
+img{
+	width: 450px;
+	height: 300px
+	margin: 400px;
+}
